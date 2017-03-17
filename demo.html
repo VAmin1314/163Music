@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    header()
+    <title>测试的啊</title>
+</head>
+<body>
+    <audio src="http://link.hhtjim.com/163/29816902.mp3" autoplay></audio>
+</body>
+<script src="http://www.jq22.com/jquery/jquery-2.1.1.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $.get('http://music.163.com/api/song/detail/?id=103413&ids=%5B103413%5D&csrf_token=', function (data) {
+            console.log(data);
+        })
+    })
+</script>
+</html>
